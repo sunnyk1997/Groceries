@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Groceries</string>
+    <string name="enter_your_ten_digit_mobile_number">Enter your Ten digit mobile number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="welcome_user">Welcome User !</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="num">123456</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="working">Working..</string>
+    <string name="msg2">Please enter your Country Code and Phone number for verification</string>
+    <string name="verified">Verified!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="lane_1">Address Lane 1</string>
+    <string name="address_lane_2">Address Lane 2</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="offers">Offers</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="about_us">About Us</string>
+    <string name="rate_our_app">Rate our App</string>
+    <string name="share_app">Share App</string>
+    <string name="loyalty_points">Loyalty Points</string>
+    <string name="referral">Referral</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="welcome">Welcome...!</string>
+    <string name="good_to_see_you_on_board">Good to see you on board!</string>
+    <string name="time_in_town">time in town</string>
+</resources>

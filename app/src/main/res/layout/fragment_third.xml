@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Lavender_mist">
+    <ImageView
+        android:id="@+id/splash_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_splash_third"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rice_item"
+        android:text="Select Rice Item"
+        android:textColor="@color/blue"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_first"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/rice_item"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="Order rice and get delivery in the fastest"/>
+    <TextView
+        android:id="@+id/town"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/time_in_town"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/blue"
+        android:id="@+id/done"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:text="Done" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:textColor="@color/blue"
+        android:id="@+id/back_third"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:text="Back" />
+</RelativeLayout>
+<!--<Button-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="@color/blue"-->
+<!--android:layout_below="@+id/town"-->
+<!--android:layout_margin="15dp"-->
+<!--android:textColor="@color/white"-->
+<!--android:id="@+id/btn1"-->
+<!--android:onClick="onClickSwitchActivity"-->
+<!--android:textAllCaps="false"-->
+<!--android:layout_alignParentEnd="true"-->
+<!--android:text="Done" />-->

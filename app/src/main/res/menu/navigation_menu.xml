@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_menu1">
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/offers"
+            android:title="@string/offers"></item>
+        <item
+            android:id="@+id/referral"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/referral"></item>
+
+        <item
+            android:id="@+id/customer_support"
+            android:icon="@drawable/headphoness"
+            android:title="@string/customer_support" />
+        <item
+            android:id="@+id/loyalty_points"
+            android:icon="@drawable/reward"
+            android:title="@string/loyalty_points" />
+    </group>
+    <group android:id="@+id/group_menu2"
+        android:checkableBehavior="none"
+        >
+        <item
+            android:id="@+id/share"
+            android:title="@string/share_app" />
+        <item
+            android:id="@+id/rate_app"
+            android:title="@string/rate_our_app" />
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about_us" />
+
+    </group>
+    <group android:id="@+id/group_menu3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

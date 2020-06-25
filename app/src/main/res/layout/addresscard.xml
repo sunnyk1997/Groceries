@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/rv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sample"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rv_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_name"
+            android:text="sample"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_phone_number"
+            android:text="sample"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/imgb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toStartOf="@+id/imgb1"
+            android:background="@color/white"
+            android:src="@drawable/ic_edit" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<!--<ImageButton-->
+<!--android:id="@+id/imgb3"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_margin="10dp"-->
+<!--android:layout_toStartOf="@+id/imgb1"-->
+<!--android:background="@color/white"-->
+<!--android:layout_below="@id/rv_phone_number"-->
+<!--android:layout_alignParentEnd="true"-->
+<!--android:src="@drawable/ic_check_black_24dp" />-->

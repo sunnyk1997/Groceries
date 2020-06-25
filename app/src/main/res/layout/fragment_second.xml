@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Lavender_mist">
+    <ImageView
+        android:id="@+id/splash_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_splash_secound"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/order"
+        android:text="Order directly from the"
+        android:textColor="@color/blue"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_first"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app"
+        android:text="Application"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/order"/>
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/app"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:lines="1"
+        android:text="Fresh and Best Quality Products"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/blue"
+        android:id="@+id/next_second"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:text="Next" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/blue"
+        android:id="@+id/back_second"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:layout_alignParentStart="true"
+        android:text="Back" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/blue"
+        android:id="@+id/skip_second"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:text="Skip" />
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Lavender_mist">
+    <ImageView
+        android:id="@+id/splash_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_splash_first"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="@string/welcome"
+        android:textColor="@color/blue"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_first"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/good_to_see_you_on_board"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/blue"
+        android:id="@+id/next_first"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Next" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/blue"
+        android:id="@+id/skip_first"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:text="Skip" />
+</RelativeLayout>

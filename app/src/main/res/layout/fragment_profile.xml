@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/number"
+        android:layout_alignRight="@+id/number"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Name :"/>
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sample"
+        android:textColor="@color/blue"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Number :"/>
+    <TextView
+        android:id="@+id/customer_number"
+        android:layout_toRightOf="@+id/number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/customer_name"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sample"
+        android:textColor="@color/blue"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Address :"/>
+    <TextView
+        android:id="@+id/customer_address"
+        android:layout_toRightOf="@+id/address"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edit"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:text="Sample"/>
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Edit"
+        android:textAllCaps="false"
+
+        android:layout_below="@+id/number"/>
+    <Button
+        android:id="@+id/add_or_modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Add / Modify Addrerss"
+        android:textAllCaps="false"
+        android:layout_below="@+id/customer_address"/>
+</RelativeLayout>
